@@ -1,3 +1,4 @@
-for(let a = 0; a <= 200; a++){
+for(let a = 0; a <= 50; a++){
     console.log(a);
+    
 }
