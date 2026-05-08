@@ -1,6 +1,29 @@
-# Learn Playwright Batch 2X
+<div align="center">
 
-> A beginner-friendly JavaScript learning repository covering basics, concepts, literals, identifiers, and essential VS Code shortcuts.
+# 🎓 Nisk Learning 🚀
+
+### 🌈 Full Stack Automation & Testing Learning Path 🌈
+
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Playwright](https://img.shields.io/badge/Playwright-45ba4b?style=for-the-badge&logo=playwright&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![AI](https://img.shields.io/badge/AI-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Reports](https://img.shields.io/badge/Reports-EC4E3A?style=for-the-badge&logo=googleanalytics&logoColor=white)
+![API](https://img.shields.io/badge/API-6E78B8?style=for-the-badge&logo=fastapi&logoColor=white)
+
+<br>
+
+### 🟡 JavaScript ➤ 🟢 Playwright ➤ 🔵 TypeScript ➤ 🟠 Cucumber ➤ 🔴 CI/CD ➤ 🟣 AI ➤ ⚫ Reports ➤ 🟤 API
+
+<br>
+
+> A beginner-friendly learning repository covering **JavaScript Basics → Playwright Automation → TypeScript → BDD with Cucumber → CI/CD Pipelines → AI Integration → Test Reporting → API Testing**
+
+</div>
 
 ---
 
