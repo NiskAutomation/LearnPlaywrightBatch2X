@@ -14,14 +14,16 @@
 ![AI](https://img.shields.io/badge/AI-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Reports](https://img.shields.io/badge/Reports-EC4E3A?style=for-the-badge&logo=googleanalytics&logoColor=white)
 ![API](https://img.shields.io/badge/API-6E78B8?style=for-the-badge&logo=fastapi&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM-8A2BE2?style=for-the-badge&logo=openai&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-00BFFF?style=for-the-badge&logo=dependabot&logoColor=white)
 
 <br>
 
-### 🟡 JavaScript ➤ 🟢 Playwright ➤ 🔵 TypeScript ➤ 🟠 Cucumber ➤ 🔴 CI/CD ➤ 🟣 AI ➤ ⚫ Reports ➤ 🟤 API
+### 🟡 JavaScript ➤ 🟢 Playwright ➤ 🔵 TypeScript ➤ 🟠 Cucumber ➤ 🔴 CI/CD ➤ 🟣 AI ➤ ⚫ Reports ➤ 🟤 API ➤ 🟪 LLM ➤ 🟦 MCP
 
 <br>
 
-> A beginner-friendly learning repository covering **JavaScript Basics → Playwright Automation → TypeScript → BDD with Cucumber → CI/CD Pipelines → AI Integration → Test Reporting → API Testing**
+> A beginner-friendly learning repository covering **JavaScript Basics → Playwright Automation → TypeScript → BDD with Cucumber → CI/CD Pipelines → AI Integration → Test Reporting → API Testing → LLM → MCP**
 
 </div>
 
