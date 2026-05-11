@@ -56,6 +56,18 @@ LearnPlaywrightBatch2X/
 │   ├── VS_Code_keyboard_Shortcut_mac.md    → VS Code shortcuts for macOS
 │   └── VS_Code_keyboard_Shortcut_window.md → VS Code shortcuts for Windows
 │
+├── Chapter_04_Javascripts_Concepts/
+│   ├── 09_var_let_const.js       → var, let, const comparison
+│   ├── 10_function.js            → Function definition and calling
+│   ├── 11_var_explained.js       → var keyword deep dive
+│   ├── 12_let_people_love.js     → let keyword explained
+│   ├── 13_const_explained.js     → const keyword explained
+│   ├── 14_varFunctionScope.js    → var function scope
+│   ├── 15_let_scope.js           → let block scope
+│   ├── 16_Hosting.js             → JavaScript Hoisting
+│   ├── 17_hostingFunction.js     → Function hoisting
+│   └── pratice.js                → Practice exercises
+│
 └── README.md                                 → This file
 ```
 
@@ -105,6 +117,20 @@ LearnPlaywrightBatch2X/
 | `07_Identifier_Part2.js` | Naming conventions: camelCase, PascalCase, snake_case, SCREAMING_SNAKE_CASE, Hungarian, kebab-case, dot.case |
 | `08_Comments.js` | *(Comments topic — to be expanded)* |
 | `js_Identifier_Rules.js` | Additional identifier rule examples |
+
+### Chapter 04 — JavaScript Concepts (var, let, const, Functions, Hoisting)
+| File | Topic Covered |
+|------|--------------|
+| `09_var_let_const.js` | Comparison of `var`, `let`, and `const` |
+| `10_function.js` | Defining and calling functions |
+| `11_var_explained.js` | Deep dive into `var` keyword |
+| `12_let_people_love.js` | Understanding `let` keyword |
+| `13_const_explained.js` | Understanding `const` keyword |
+| `14_varFunctionScope.js` | Function scope with `var` |
+| `15_let_scope.js` | Block scope with `let` |
+| `16_Hosting.js` | JavaScript hoisting concept |
+| `17_hostingFunction.js` | Function hoisting behavior |
+| `pratice.js` | Practice exercises |
 
 ### VS Code Shortcuts Reference
 | File | Platform |
