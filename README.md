@@ -66,7 +66,22 @@ LearnPlaywrightBatch2X/
 │   ├── 15_let_scope.js           → let block scope
 │   ├── 16_Hosting.js             → JavaScript Hoisting
 │   ├── 17_hostingFunction.js     → Function hoisting
+│   ├── 18_let_hoisting.js        → let hoisting behavior
+│   ├── 19_let_hoisting_block.js  → Block-level let hoisting
+│   ├── 20_let_const.js           → let vs const comparison
+│   ├── 21_Jr_QA.js               → Junior QA interview questions
+│   ├── TDZ_and_Hoisting_Research.js → Complete research on Hoisting & TDZ
 │   └── pratice.js                → Practice exercises
+│
+├── Chapter_05_Literals_Concepts/
+│   ├── 22_Literal.js             → JavaScript literals basics
+│   ├── 23_null_vs_undefine.js    → null vs undefined differences
+│   ├── 24_null.js                → Understanding null
+│   ├── 25_Literal_All.js         → All literal types overview
+│   ├── 26_literal_number_all.js  → All number literal types
+│   ├── 27_String_Literals.js     → String literals
+│   ├── 28_Template_Literals.js   → Template literals
+│   └── 29_Backtick_SingleQuote_DoubleQuote.js → Backtick vs quotes comparison
 │
 └── README.md                                 → This file
 ```
