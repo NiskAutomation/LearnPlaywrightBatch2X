@@ -130,7 +130,23 @@ LearnPlaywrightBatch2X/
 | `15_let_scope.js` | Block scope with `let` |
 | `16_Hosting.js` | JavaScript hoisting concept |
 | `17_hostingFunction.js` | Function hoisting behavior |
+| `18_let_hoisting.js` | `let` hoisting behavior |
+| `19_let_hoisting_block.js` | Block-level `let` hoisting |
+| `20_let_const.js` | `let` vs `const` comparison |
+| `TDZ_and_Hoisting_Research.js` | Complete research on Hoisting & TDZ |
 | `pratice.js` | Practice exercises |
+
+### Chapter 05 — Literals & Data Types
+| File | Topic Covered |
+|------|--------------|
+| `22_Literal.js` | JavaScript literals basics |
+| `23_null_vs_undefine.js` | `null` vs `undefined` differences |
+| `24_null.js` | Understanding `null` |
+| `25_Literal_All.js` | All literal types overview |
+| `26_literal_number_all.js` | All number literal types |
+| `27_String_Literals.js` | String literals |
+| `28_Template_Literals.js` | Template literals |
+| `29_Backtick_SingleQuote_DoubleQuote.js` | Backtick vs quotes comparison |
 
 ### VS Code Shortcuts Reference
 | File | Platform |
@@ -139,6 +155,93 @@ LearnPlaywrightBatch2X/
 | `VS_Code_keyboard_Shortcut_window.md` | Windows (`Ctrl`, `Alt`) |
 
 > Both files include shortcuts for: General, Editing, Multi-cursor, Search, Navigation, Editor Management, File Management, Display, Debug, and Integrated Terminal.
+
+---
+
+## 🔍 Detailed Concepts
+
+### var vs let vs const — Complete Comparison
+
+JavaScript provides three ways to declare variables. Understanding their differences is crucial for writing bug-free code.
+
+#### 1. Scope Difference
+
+- **`var`** — Function-scoped or globally-scoped. A variable declared with `var` inside a function is only available within that function. If declared outside any function, it becomes global.
+- **`let`** — Block-scoped. A variable declared with `let` is only available within the nearest pair of curly braces `{}` (block).
+- **`const`** — Block-scoped (same as `let`). The variable cannot be reassigned, but the contents of objects/arrays can still be modified.
+
+#### 2. Hoisting Behavior
+
+**Hoisting** is JavaScript's default behavior of moving variable declarations to the top of their scope during compilation.
+
+- **`var`** — Hoisted and automatically initialized with `undefined`. This means you can access a `var` variable before its declaration, and you will get `undefined` (not an error).
+- **`let`** — Hoisted but **NOT initialized**. The variable exists in the scope but cannot be accessed until its declaration is reached.
+- **`const`** — Same as `let`: hoisted but **NOT initialized**.
+
+#### 3. Temporal Dead Zone (TDZ)
+
+The **Temporal Dead Zone (TDZ)** is the period between entering a scope and the actual variable declaration where the variable cannot be accessed.
+
+- **`var`** — **NO TDZ**. You can access it before declaration (returns `undefined`).
+- **`let`** — **HAS TDZ**. Accessing it before declaration throws a `ReferenceError`.
+- **`const`** — **HAS TDZ**. Same as `let`, accessing before declaration throws a `ReferenceError`.
+
+#### 4. Re-declaration & Re-assignment
+
+| Feature | `var` | `let` | `const` |
+|---------|-------|-------|---------|
+| Can re-declare in same scope | Yes | No | No |
+| Can re-assign value | Yes | Yes | No |
+| Must initialize at declaration | No | No | Yes |
+
+#### 5. Summary Table
+
+| Feature | `var` | `let` | `const` |
+|---------|-------|-------|---------|
+| Scope | Function / Global | Block | Block |
+| Hoisted | Yes | Yes | Yes |
+| Initialized during hoisting | `undefined` | No (TDZ) | No (TDZ) |
+| TDZ Exists | No | Yes | Yes |
+| Re-declarable | Yes | No | No |
+| Re-assignable | Yes | Yes | No |
+| Best Practice | Avoid | Use when needed | Prefer by default |
+
+#### 6. Practical Example
+
+```javascript
+// var example
+console.log(x); // undefined (hoisted)
+var x = 10;
+
+// let example
+// console.log(y); // ReferenceError: TDZ!
+let y = 20;
+
+// const example
+const z = 30;
+// z = 40; // TypeError: Assignment to constant variable
+```
+
+#### 7. Why TDZ Matters
+
+The TDZ prevents variables from being used before they are properly initialized, catching bugs early. It makes `let` and `const` more predictable than `var`.
+
+```javascript
+// Loop example showing TDZ benefit
+for (var i = 0; i < 3; i++) {
+    setTimeout(() => console.log(i), 100); // Prints 3, 3, 3
+}
+
+for (let j = 0; j < 3; j++) {
+    setTimeout(() => console.log(j), 100); // Prints 0, 1, 2
+}
+```
+
+### Best Practices
+- Prefer `const` by default to prevent accidental re-assignment.
+- Use `let` only when you genuinely need to re-assign a variable.
+- Avoid `var` to prevent scope-related bugs and confusion.
+- Declare variables at the top of their scope to minimize TDZ confusion.
 
 ---
 
