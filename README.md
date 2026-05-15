@@ -84,7 +84,21 @@ LearnPlaywrightBatch2X/
 │   └── 29_Backtick_SingleQuote_DoubleQuote.js → Backtick vs quotes comparison
 │
 ├── Chapter_06_Operator/
-│   └── 38_Confusing_Compaarsion.js → == vs === comparison guide, type coercion, NaN, null, arrays, objects, best practices
+│   ├── 30_Assignment_Op.js                    → Assignment operator (=)
+│   ├── 31_Arithmetic_Op.js                    → Arithmetic operators (+, -, *, /)
+│   ├── 32_Modulus_Op.js                       → Modulus operator (%)
+│   ├── 33_Exponential_Op.js                   → Exponential operator (**)
+│   ├── 34_Interview_Question.js               → Compound assignment operators (+=, -=, *=, /=, %=)
+│   ├── 35_Comparsion_Op.js                    → Comparison operators (to be expanded)
+│   ├── 36_Comparsion_Strict_vs_Loose.js       → Strict vs loose comparison basics (to be expanded)
+│   ├── 37_Interview_Question.js               → Comparison interview questions (to be expanded)
+│   ├── 38_Confusing_Compaarsion.js            → == vs === deep dive, type coercion, NaN, null, arrays, objects, best practices
+│   ├── 39_Logical_Op.js                       → Logical operators (&&, ||, !)
+│   ├── 40_String_Concatination.Op.js          → String concatenation operator (+=)
+│   ├── 41_Ternary_Op.js                       → Ternary operator (to be expanded)
+│   ├── 42_Type_Op.js                          → Type operators (to be expanded)
+│   ├── 43_Incremant_Decriment_Op.js           → Increment / Decrement operators (to be expanded)
+│   └── 44_Null_Op.js                          → Nullish operators (to be expanded)
 │
 └── README.md                                 → This file
 ```
@@ -169,7 +183,21 @@ LearnPlaywrightBatch2X/
 ### Chapter 06 — Operators & Comparisons
 | File | Topic Covered |
 |------|--------------|
+| `30_Assignment_Op.js` | Assignment operator (`=`) |
+| `31_Arithmetic_Op.js` | Arithmetic operators (`+`, `-`, `*`, `/`) |
+| `32_Modulus_Op.js` | Modulus operator (`%`) |
+| `33_Exponential_Op.js` | Exponential operator (`**`) |
+| `34_Interview_Question.js` | Compound assignment operators (`+=`, `-=`, `*=`, `/=`, `%=`) |
+| `35_Comparsion_Op.js` | Comparison operators (to be expanded) |
+| `36_Comparsion_Strict_vs_Loose.js` | Strict vs loose comparison basics (to be expanded) |
+| `37_Interview_Question.js` | Comparison interview questions (to be expanded) |
 | `38_Confusing_Compaarsion.js` | `==` vs `===` deep dive, type coercion, boolean/null/NaN/array/object comparisons, best practices, interview questions |
+| `39_Logical_Op.js` | Logical operators (`&&`, `\|\|`, `!`) |
+| `40_String_Concatination.Op.js` | String concatenation operator (`+=`) |
+| `41_Ternary_Op.js` | Ternary operator (to be expanded) |
+| `42_Type_Op.js` | Type operators (to be expanded) |
+| `43_Incremant_Decriment_Op.js` | Increment / Decrement operators (to be expanded) |
+| `44_Null_Op.js` | Nullish operators (to be expanded) |
 
 ### VS Code Shortcuts Reference
 | File | Platform |
