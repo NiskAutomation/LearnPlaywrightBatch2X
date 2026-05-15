@@ -83,6 +83,9 @@ LearnPlaywrightBatch2X/
 │   ├── 28_Template_Literals.js   → Template literals
 │   └── 29_Backtick_SingleQuote_DoubleQuote.js → Backtick vs quotes comparison
 │
+├── Chapter_06_Operator/
+│   └── 38_Confusing_Compaarsion.js → == vs === comparison guide, type coercion, NaN, null, arrays, objects, best practices
+│
 └── README.md                                 → This file
 ```
 
@@ -162,6 +165,11 @@ LearnPlaywrightBatch2X/
 | `27_String_Literals.js` | String literals |
 | `28_Template_Literals.js` | Template literals |
 | `29_Backtick_SingleQuote_DoubleQuote.js` | Backtick vs quotes comparison |
+
+### Chapter 06 — Operators & Comparisons
+| File | Topic Covered |
+|------|--------------|
+| `38_Confusing_Compaarsion.js` | `==` vs `===` deep dive, type coercion, boolean/null/NaN/array/object comparisons, best practices, interview questions |
 
 ### VS Code Shortcuts Reference
 | File | Platform |
