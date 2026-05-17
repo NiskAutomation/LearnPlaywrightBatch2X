@@ -100,6 +100,14 @@ LearnPlaywrightBatch2X/
 │   ├── 43_Incremant_Decriment_Op.js           → Increment / Decrement operators (to be expanded)
 │   └── 44_Null_Op.js                          → Nullish operators (to be expanded)
 │
+├── Program_Pratice/
+│   ├── 01_Reverse_String.js        → Reverse a string (with/without built-in, reverse each word)
+│   ├── 02_Palindrome_String.js     → Check palindrome (with/without built-in)
+│   ├── 03_RemoveDuplicate.js       → Remove duplicate characters from string
+│   ├── 04_FindDuplicate.js         → Find duplicate characters in string
+│   ├── 05_OccurancyString.js       → Count character occurrences in string
+│   └── 06_NonRepeated.js           → Find non-repeated characters in string
+│
 └── README.md                                 → This file
 ```
 
@@ -198,6 +206,16 @@ LearnPlaywrightBatch2X/
 | `42_Type_Op.js` | Type operators (to be expanded) |
 | `43_Incremant_Decriment_Op.js` | Increment / Decrement operators (to be expanded) |
 | `44_Null_Op.js` | Nullish operators (to be expanded) |
+
+### Program Practice — String Manipulation & Algorithms
+| File | Topic Covered |
+|------|--------------|
+| `01_Reverse_String.js` | Reverse a string using built-in, without built-in, and reverse each word |
+| `02_Palindrome_String.js` | Check if a string is palindrome (with/without built-in functions) |
+| `03_RemoveDuplicate.js` | Remove duplicate characters from a string |
+| `04_FindDuplicate.js` | Find duplicate characters in a string |
+| `05_OccurancyString.js` | Count character occurrences in a string (object + console output) |
+| `06_NonRepeated.js` | Find non-repeated characters in a string |
 
 ### VS Code Shortcuts Reference
 | File | Platform |
