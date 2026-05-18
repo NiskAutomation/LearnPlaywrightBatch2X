@@ -95,10 +95,13 @@ LearnPlaywrightBatch2X/
 │   ├── 38_Confusing_Compaarsion.js            → == vs === deep dive, type coercion, NaN, null, arrays, objects, best practices
 │   ├── 39_Logical_Op.js                       → Logical operators (&&, ||, !)
 │   ├── 40_String_Concatination.Op.js          → String concatenation operator (+=)
-│   ├── 41_Ternary_Op.js                       → Ternary operator (to be expanded)
+│   ├── 41_Ternary_Op.js                       → Ternary operator with status check (✅ PASS / ❌ FAIL)
 │   ├── 42_Type_Op.js                          → Type operators (to be expanded)
-│   ├── 43_Incremant_Decriment_Op.js           → Increment / Decrement operators (to be expanded)
-│   └── 44_Null_Op.js                          → Nullish operators (to be expanded)
+│   ├── 43_Incremant_Decriment_Op.js           → Pre Increment operator (++x)
+│   ├── 44_Null_Op.js                          → Null comparisons and Nullish Coalescing operator (??)
+│   ├── 45_Post_Increment.js                   → Post Increment operator (x++)
+│   ├── 46_IQ_Increment.js                     → Post Increment IQ question
+│   └── 47_Advance_IQ.js                       → Advanced increment / decrement IQ questions
 │
 ├── Program_Pratice/
 │   ├── 01_Reverse_String.js        → Reverse a string (with/without built-in, reverse each word)
@@ -202,10 +205,13 @@ LearnPlaywrightBatch2X/
 | `38_Confusing_Compaarsion.js` | `==` vs `===` deep dive, type coercion, boolean/null/NaN/array/object comparisons, best practices, interview questions |
 | `39_Logical_Op.js` | Logical operators (`&&`, `\|\|`, `!`) |
 | `40_String_Concatination.Op.js` | String concatenation operator (`+=`) |
-| `41_Ternary_Op.js` | Ternary operator (to be expanded) |
+| `41_Ternary_Op.js` | Ternary operator with status check (✅ PASS / ❌ FAIL) |
 | `42_Type_Op.js` | Type operators (to be expanded) |
-| `43_Incremant_Decriment_Op.js` | Increment / Decrement operators (to be expanded) |
-| `44_Null_Op.js` | Nullish operators (to be expanded) |
+| `43_Incremant_Decriment_Op.js` | Pre Increment operator (`++x`) |
+| `44_Null_Op.js` | Null comparisons and Nullish Coalescing operator (`??`) |
+| `45_Post_Increment.js` | Post Increment operator (`x++`) |
+| `46_IQ_Increment.js` | Post Increment IQ question |
+| `47_Advance_IQ.js` | Advanced increment / decrement IQ questions |
 
 ### Program Practice — String Manipulation & Algorithms
 | File | Topic Covered |
