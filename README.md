@@ -114,6 +114,22 @@ LearnPlaywrightBatch2X/
 │   ├── 55_If_else.js                          → Basic if block execution
 │   └── TaskForToday.js                        → Practice tasks with emojis (even/odd, grades, leap year, HTTP status, test verdict, bug severity)
 │
+├── Chapter_08_Switch_Statement/
+│   ├── 59_Switch.js                           → Switch statement basics (days of week example)
+│   ├── 60_No_Break.js                         → Switch without break (fall-through behavior)
+│   ├── 61_Default.js                          → Switch with default case
+│   ├── 62_Real_Time_Example.js                → API status code validation using switch
+│   ├── 63_Switch_Group.js                     → Grouped case statements (browser detection)
+│   ├── 64_Interview_Question.js               → Missing break interview question (fruits)
+│   ├── 65_Interview_Question.js               → Switch with boolean expression (test scores)
+│   ├── 66_Interview_Question.js               → Duplicate case values behavior
+│   └── 67_Interview_Question.js               → Strict equality comparison in switch (string vs number)
+│
+├── Chapter_09_UserInput/
+│   ├── 68_User_Input.js                       → Browser prompt for user input
+│   ├── 69_Node_Readline.js                    → Node.js readline module for user input
+│   └── 70_Prompt_sync.js                      → prompt-sync package for synchronous user input
+│
 ├── Program_Pratice/
 │   ├── 01_Reverse_String.js        → Reverse a string (with/without built-in, reverse each word)
 │   ├── 02_Palindrome_String.js     → Check palindrome (with/without built-in)
@@ -236,6 +252,26 @@ LearnPlaywrightBatch2X/
 | `54_Interview_Question.js` | Simple if condition interview question |
 | `55_If_else.js` | Basic if block execution |
 | `TaskForToday.js` | ✅ Emoji practice tasks: even/odd, grades, leap year, HTTP status, test verdict, bug severity |
+
+### Chapter 08 — Switch Statement
+| File | Topic Covered |
+|------|--------------|
+| `59_Switch.js` | Switch statement basics (days of week example) |
+| `60_No_Break.js` | Switch without break (fall-through behavior) |
+| `61_Default.js` | Switch with default case handling |
+| `62_Real_Time_Example.js` | API status code validation using switch |
+| `63_Switch_Group.js` | Grouped case statements (Chromium-based browser detection) |
+| `64_Interview_Question.js` | Missing break interview question (fruits fall-through) |
+| `65_Interview_Question.js` | Switch with boolean expression (test score grading) |
+| `66_Interview_Question.js` | Duplicate case values behavior in switch |
+| `67_Interview_Question.js` | Strict equality comparison (string vs number) in switch |
+
+### Chapter 09 — User Input
+| File | Topic Covered |
+|------|--------------|
+| `68_User_Input.js` | Browser `prompt()` for user input (even/odd check) |
+| `69_Node_Readline.js` | Node.js `readline` module for command-line user input |
+| `70_Prompt_sync.js` | `prompt-sync` npm package for synchronous user input |
 
 ### Program Practice — String Manipulation & Algorithms
 | File | Topic Covered |
