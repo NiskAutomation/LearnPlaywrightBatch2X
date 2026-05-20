@@ -103,6 +103,17 @@ LearnPlaywrightBatch2X/
 │   ├── 46_IQ_Increment.js                     → Post Increment IQ question
 │   └── 47_Advance_IQ.js                       → Advanced increment / decrement IQ questions
 │
+├── Chapter_07_if_else/
+│   ├── 48_if_else.js                          → Basic if-else statement
+│   ├── 49_if_elseif_else.js                   → if-else-if ladder (grades example)
+│   ├── 50_Real_if_else.js                     → Nested if-else with user roles (viewer/editor/admin)
+│   ├── 51_Api_if_else.js                      → API status code handling with if-else
+│   ├── 52_Interview_Question_if_else.js       → Truthy & falsy values in if conditions
+│   ├── 53_if_else_real.js                     → Real-world login validation example
+│   ├── 54_Interview_Question.js               → Simple if condition interview question
+│   ├── 55_If_else.js                          → Basic if block execution
+│   └── TaskForToday.js                        → Practice tasks with emojis (even/odd, grades, leap year, HTTP status, test verdict, bug severity)
+│
 ├── Program_Pratice/
 │   ├── 01_Reverse_String.js        → Reverse a string (with/without built-in, reverse each word)
 │   ├── 02_Palindrome_String.js     → Check palindrome (with/without built-in)
@@ -212,6 +223,19 @@ LearnPlaywrightBatch2X/
 | `45_Post_Increment.js` | Post Increment operator (`x++`) |
 | `46_IQ_Increment.js` | Post Increment IQ question |
 | `47_Advance_IQ.js` | Advanced increment / decrement IQ questions |
+
+### Chapter 07 — if-else Conditional Statements
+| File | Topic Covered |
+|------|--------------|
+| `48_if_else.js` | Basic if-else statement syntax and voting age example |
+| `49_if_elseif_else.js` | if-else-if ladder with grade classification |
+| `50_Real_if_else.js` | Nested if-else with user role-based access (viewer/editor/admin) |
+| `51_Api_if_else.js` | API status code handling with if-else |
+| `52_Interview_Question_if_else.js` | Truthy & falsy values in if conditions |
+| `53_if_else_real.js` | Real-world login validation with username, password, and account lock |
+| `54_Interview_Question.js` | Simple if condition interview question |
+| `55_If_else.js` | Basic if block execution |
+| `TaskForToday.js` | ✅ Emoji practice tasks: even/odd, grades, leap year, HTTP status, test verdict, bug severity |
 
 ### Program Practice — String Manipulation & Algorithms
 | File | Topic Covered |
