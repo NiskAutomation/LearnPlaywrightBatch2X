@@ -13,4 +13,4 @@ x /= 4;
 console.log("Value of x after division assignment:", x); // 17
 
 x %= 5;
-console.log("Value of x after modulus assignment:", x); // 2
+console.log("Value of x after modulus assignment:", x); // 2  

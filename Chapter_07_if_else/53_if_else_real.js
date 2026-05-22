@@ -1,6 +1,8 @@
 let username = "Nishikant";
 let password = "secret123";
 let isAccountLocked = true;
+
+//logical operators with if-else statements
 if((username === "Nishikant" && password === "secret123") && isAccountLocked){
     console.log("Login successful");
 }

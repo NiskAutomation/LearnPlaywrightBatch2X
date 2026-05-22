@@ -9,5 +9,3 @@ function removeDuplicate(str){
 }
 console.log(removeDuplicate("geeksforgeeks")); // Output: geksfor
 
-
-//

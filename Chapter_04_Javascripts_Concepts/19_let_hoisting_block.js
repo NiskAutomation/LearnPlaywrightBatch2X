@@ -5,7 +5,7 @@ if (true) {
 //TDZ (Temporal Dead Zone) Concept starts here
 //console.log(x); // ReferenceError:(NOT Global scope) Cannot access 'x' before initialization
 
-    let x = "block scope";
+    let x = "block scope"; //declare reach , TDZ ended here
     console.log(x); // block scope
 }
 

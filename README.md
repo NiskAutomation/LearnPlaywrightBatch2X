@@ -130,6 +130,21 @@ LearnPlaywrightBatch2X/
 │   ├── 69_Node_Readline.js                    → Node.js readline module for user input
 │   └── 70_Prompt_sync.js                      → prompt-sync package for synchronous user input
 │
+├── Chapter_10_Loops/
+│   ├── 71_for_loop.js                         → for loop basics (console.log 1-7)
+│   ├── 72_for.loop.js                         → for loop with initialization, condition, increment
+│   ├── 73_for_loop.js                         → for loop with break and continue
+│   ├── 74_InterviewQuestion.js                → for loop interview questions
+│   ├── 75_for_of_in_each                      → for...of, for...in loops
+│   ├── 76_while_loop.js                       → while loop basics
+│   ├── 77_do_while.js                         → do...while loop basics
+│   ├── 78_do_while.js                         → do...while with real example
+│   ├── 79_InterviewQuestion.js                → while/do while interview questions
+│   ├── 80_InterviewQuestion.js                → loop pattern questions
+│   ├── 81_InterviewQuestion.js                → advanced loop interview questions
+│   ├── 82_InterviewQuestion.js                → nested loop interview questions
+│   └── TaskforToday.js                        → FizzBuzz practice task
+│
 ├── Program_Pratice/
 │   ├── 01_Reverse_String.js        → Reverse a string (with/without built-in, reverse each word)
 │   ├── 02_Palindrome_String.js     → Check palindrome (with/without built-in)
@@ -272,6 +287,23 @@ LearnPlaywrightBatch2X/
 | `68_User_Input.js` | Browser `prompt()` for user input (even/odd check) |
 | `69_Node_Readline.js` | Node.js `readline` module for command-line user input |
 | `70_Prompt_sync.js` | `prompt-sync` npm package for synchronous user input |
+
+### Chapter 10 — Loops
+| File | Topic Covered |
+|------|--------------|
+| `71_for_loop.js` | for loop basics and syntax |
+| `72_for.loop.js` | for loop with init, condition, increment |
+| `73_for_loop.js` | for loop with `break` and `continue` |
+| `74_InterviewQuestion.js` | for loop interview questions |
+| `75_for_of_in_each` | `for...of` and `for...in` loops |
+| `76_while_loop.js` | `while` loop basics |
+| `77_do_while.js` | `do...while` loop basics |
+| `78_do_while.js` | `do...while` real-world example |
+| `79_InterviewQuestion.js` | `while` / `do...while` interview questions |
+| `80_InterviewQuestion.js` | Loop pattern questions |
+| `81_InterviewQuestion.js` | Advanced loop interview questions |
+| `82_InterviewQuestion.js` | Nested loop interview questions |
+| `TaskforToday.js` | FizzBuzz classic programming task |
 
 ### Program Practice — String Manipulation & Algorithms
 | File | Topic Covered |

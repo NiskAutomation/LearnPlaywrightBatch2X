@@ -89,3 +89,6 @@ console.log("typeof 3.14:", typeof 3.14);       // "number"
 console.log("typeof Infinity:", typeof Infinity); // "number"
 console.log("typeof NaN:", typeof NaN);           // "number"
 console.log("typeof 42n:", typeof 42n);           // "bigint"
+
+
+//in bigint n is used to represent big integer literals, it is a way to create BigInt values in JavaScript. By appending 'n' to the end of an integer literal, you can create a BigInt value that can represent integers larger than the maximum safe integer limit of the Number type.
