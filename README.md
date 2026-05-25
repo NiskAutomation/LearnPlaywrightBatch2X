@@ -145,6 +145,17 @@ LearnPlaywrightBatch2X/
 │   ├── 82_InterviewQuestion.js                → nested loop interview questions
 │   └── TaskforToday.js                        → FizzBuzz practice task
 │
+├── Chapter_11_Arrays/
+│   ├── 83_Arrays.js                           → Array basics, empty array, indexing
+│   ├── 84_Arrays.js                           → Creating arrays (literals, constructor, Array.of, Array.from)
+│   ├── 85_Access_Arrays.js                    → Accessing & modifying elements, .at() method
+│   ├── 86_Arrays_Adding_Remove.js             → push, pop, unshift, shift, fill
+│   ├── 87_Adding_Remove2.js                   → splice method (insert, delete, replace)
+│   ├── 88_Real_Example.js                     → Real-world browser list manipulation
+│   ├── 89_Searching.js                        → indexOf, lastIndexOf, find, findIndex
+│   ├── 90_Iterate.js                          → for, for...of, forEach, for...in, .entries()
+│   └── 91_Iransfer_Array.js                   → map, filter, reduce, flat
+│
 ├── Program_Pratice/
 │   ├── 01_Reverse_String.js        → Reverse a string (with/without built-in, reverse each word)
 │   ├── 02_Palindrome_String.js     → Check palindrome (with/without built-in)
@@ -305,6 +316,19 @@ LearnPlaywrightBatch2X/
 | `82_InterviewQuestion.js` | Nested loop interview questions |
 | `TaskforToday.js` | FizzBuzz classic programming task |
 
+### Chapter 11 — Arrays
+| File | Topic Covered |
+|------|--------------|
+| `83_Arrays.js` | Array basics, empty array, length, and indexing |
+| `84_Arrays.js` | Creating arrays: literals, `new Array()`, `Array.of()`, `Array.from()` |
+| `85_Access_Arrays.js` | Accessing & modifying elements, `.at()` method with negative indexes |
+| `86_Arrays_Adding_Remove.js` | Adding/removing elements: `push`, `pop`, `unshift`, `shift`, `fill` |
+| `87_Adding_Remove2.js` | `splice()` method: insert, delete, and replace elements |
+| `88_Real_Example.js` | Real-world browser list manipulation example |
+| `89_Searching.js` | Searching methods: `indexOf`, `lastIndexOf`, `find`, `findIndex` |
+| `90_Iterate.js` | Iteration techniques: `for`, `for...of`, `forEach`, `for...in`, `.entries()` |
+| `91_Iransfer_Array.js` | Transform methods: `map`, `filter`, `reduce`, `flat` |
+
 ### Program Practice — String Manipulation & Algorithms
 | File | Topic Covered |
 |------|--------------|
@@ -451,39 +475,13 @@ for (let j = 0; j < 3; j++) {
 
 ## 🛠️ VS Code IntelliSense Setup
 
-To enable **fix suggestions / IntelliSense** across all JavaScript files in this project, the following workspace files have been added:
+To enable **fix suggestions / IntelliSense** across all JavaScript files in this project, the following workspace file has been added:
 
 | File | Purpose |
 |------|---------|
-| `jsconfig.json` | Tells VS Code to treat the repo as a single JS project for cross-file suggestions |
 | `.vscode/settings.json` | Enables JavaScript quick suggestions, parameter hints, and auto-completion |
 
 > **Tip:** If suggestions do not appear immediately, reload the window (`Ctrl + Shift + P` → `Developer: Reload Window`).
-
----
-
-## 🚀 Quick Git Shortcut — `goGit`
-
-A convenient shortcut command is provided in the repo root to **stage, commit, and push** in one go.
-
-### Usage
-
-```powershell
-# PowerShell
-.\goGit.ps1 "Your commit message"
-
-# Windows Command Prompt
-goGit.bat "Your commit message"
-```
-
-> If no message is provided, it defaults to `"auto update"`.
-
-### Manual equivalent
-```bash
-git add .
-git commit -m "your message"
-git push origin main
-```
 
 ---
 
