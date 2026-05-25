@@ -449,6 +449,44 @@ for (let j = 0; j < 3; j++) {
 
 ---
 
+## 🛠️ VS Code IntelliSense Setup
+
+To enable **fix suggestions / IntelliSense** across all JavaScript files in this project, the following workspace files have been added:
+
+| File | Purpose |
+|------|---------|
+| `jsconfig.json` | Tells VS Code to treat the repo as a single JS project for cross-file suggestions |
+| `.vscode/settings.json` | Enables JavaScript quick suggestions, parameter hints, and auto-completion |
+
+> **Tip:** If suggestions do not appear immediately, reload the window (`Ctrl + Shift + P` → `Developer: Reload Window`).
+
+---
+
+## 🚀 Quick Git Shortcut — `goGit`
+
+A convenient shortcut command is provided in the repo root to **stage, commit, and push** in one go.
+
+### Usage
+
+```powershell
+# PowerShell
+.\goGit.ps1 "Your commit message"
+
+# Windows Command Prompt
+goGit.bat "Your commit message"
+```
+
+> If no message is provided, it defaults to `"auto update"`.
+
+### Manual equivalent
+```bash
+git add .
+git commit -m "your message"
+git push origin main
+```
+
+---
+
 ## 🤝 Contributing
 
 This is a personal learning repository. Suggestions and improvements are welcome via issues or pull requests.

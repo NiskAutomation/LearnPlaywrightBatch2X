@@ -8,3 +8,9 @@ console.log(4);
 console.log(5);
 console.log(6);
 console.log(7);
+
+//for have a four varients For, for of, for in, forEach
+//for(I, C, U)
+//I -> init / Initialation
+//C -> Condition
+//U -> Update
