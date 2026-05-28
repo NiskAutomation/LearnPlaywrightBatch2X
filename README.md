@@ -157,6 +157,19 @@ LearnPlaywrightBatch2X/
 │   └── 91_Iransfer_Array.js                   → map, filter, reduce, flat
 │
 ├── Program_Pratice/
+│   ├── Opps_Concepts/
+│   │   ├── Lab01_Export_Import.js             → Basic export/import examples
+│   │   ├── Lab02_Export_Import.js             → Named and default exports
+│   │   ├── Lab03_Logger.js                    → Logger module example
+│   │   ├── Lab04_Class_Object.js              → Class and object basics
+│   │   ├── Lab05_Car.js                       → Class with constructor and methods
+│   │   ├── Lab06_Class_Object_Browser.js      → Browser automation class example
+│   │   ├── Lab07_Browser.js                   → Browser class with inheritance
+│   │   ├── Lab08_InterviewQuestion.js         → OOP interview questions
+│   │   ├── logger.js                          → Logger utility module
+│   │   ├── testUtils.js                       → Test utility functions
+│   │   ├── utils.js                           → Utility functions
+│   │   └── OOP_Concepts_Guide.md              → Complete OOP guide (import/export, class, object, constructor, inheritance)
 │   ├── Promise/
 │   │   ├── Lab01_Promise.js              → Basic Promise creation (resolve/reject)
 │   │   ├── Lab02_Promise_API.js          → Promise with API status example
@@ -351,6 +364,22 @@ LearnPlaywrightBatch2X/
 | `89_Searching.js` | Searching methods: `indexOf`, `lastIndexOf`, `find`, `findIndex` |
 | `90_Iterate.js` | Iteration techniques: `for`, `for...of`, `forEach`, `for...in`, `.entries()` |
 | `91_Iransfer_Array.js` | Transform methods: `map`, `filter`, `reduce`, `flat` |
+
+### Program Practice — OOP Concepts
+| File | Topic Covered |
+|------|--------------|
+| `Lab01_Export_Import.js` | Basic export/import examples |
+| `Lab02_Export_Import.js` | Named and default exports |
+| `Lab03_Logger.js` | Logger module example |
+| `Lab04_Class_Object.js` | Class and object basics |
+| `Lab05_Car.js` | Class with constructor and methods |
+| `Lab06_Class_Object_Browser.js` | Browser automation class example |
+| `Lab07_Browser.js` | Browser class with inheritance |
+| `Lab08_InterviewQuestion.js` | OOP interview questions |
+| `logger.js` | Logger utility module |
+| `testUtils.js` | Test utility functions |
+| `utils.js` | Utility functions |
+| `OOP_Concepts_Guide.md` | Complete OOP guide (import/export, class, object, constructor, inheritance, `extends`, `super()`, static methods) |
 
 ### Program Practice — String Manipulation & Algorithms
 | File | Topic Covered |
