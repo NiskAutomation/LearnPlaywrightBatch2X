@@ -157,6 +157,29 @@ LearnPlaywrightBatch2X/
 │   └── 91_Iransfer_Array.js                   → map, filter, reduce, flat
 │
 ├── Program_Pratice/
+│   ├── Promise/
+│   │   ├── Lab01_Promise.js              → Basic Promise creation (resolve/reject)
+│   │   ├── Lab02_Promise_API.js          → Promise with API status example
+│   │   ├── Lab03_Promise_Catch.js        → Error handling with .catch()
+│   │   ├── Lab04_Promise_Finally.js      → Cleanup with .finally()
+│   │   ├── Lab05_RealExample_Promise.js  → Real-world Promise chaining example
+│   │   ├── Lab06_PromiseAll.js           → Promise.all() — wait for all promises
+│   │   ├── Lab07_PromiseAllSettled.js    → Promise.allSettled() — wait for all to settle
+│   │   ├── Lab08_Promise_Race.js         → Promise.race() — first to settle wins
+│   │   ├── Lab09_InterviewQuestion.js    → Promise interview questions
+│   │   ├── callback-vs-promise.md        → Callback vs Promise comparison guide
+│   │   └── Promise-Complete-Guide.md     → Complete Promise guide (.then, .catch, .finally, Promise.all, Promise.race, Promise.any, Promise.allSettled)
+│   │
+│   ├── Async_Await/
+│   │   ├── Lab_01_Async_await.js             → Basic async/await syntax
+│   │   ├── Lab02_ConvertCode_Async_await.js  → Converting Promise chains to async/await
+│   │   ├── Lab03_Basic_Aysnc_await.js        → Basic async/await examples
+│   │   ├── Lab04_Try_Catch.js                → Error handling with try...catch
+│   │   ├── Lab05_SequenatialExecution.js     → Sequential execution with await
+│   │   ├── Lab06_Parallel_Exceution.js       → Parallel execution with Promise.all + await
+│   │   ├── Lab_07_InterviewQuestion.js       → Async/await interview questions
+│   │   └── Async-Await-Complete-Guide.md     → Complete async/await guide
+│   │
 │   ├── 01_Reverse_String.js        → Reverse a string (with/without built-in, reverse each word)
 │   ├── 02_Palindrome_String.js     → Check palindrome (with/without built-in)
 │   ├── 03_RemoveDuplicate.js       → Remove duplicate characters from string
@@ -338,6 +361,29 @@ LearnPlaywrightBatch2X/
 | `04_FindDuplicate.js` | Find duplicate characters in a string |
 | `05_OccurancyString.js` | Count character occurrences in a string (object + console output) |
 | `06_NonRepeated.js` | Find non-repeated characters in a string |
+
+### Program Practice — Promise & Async/Await
+| Folder | File | Topic Covered |
+|--------|------|---------------|
+| `Promise/` | `Lab01_Promise.js` | Basic Promise creation with resolve/reject |
+| `Promise/` | `Lab02_Promise_API.js` | Promise with API status example |
+| `Promise/` | `Lab03_Promise_Catch.js` | Error handling with `.catch()` |
+| `Promise/` | `Lab04_Promise_Finally.js` | Cleanup with `.finally()` |
+| `Promise/` | `Lab05_RealExample_Promise.js` | Real-world Promise chaining (browser → login → credentials → click) |
+| `Promise/` | `Lab06_PromiseAll.js` | `Promise.all()` — wait for all promises |
+| `Promise/` | `Lab07_PromiseAllSettled.js` | `Promise.allSettled()` — wait for all to settle |
+| `Promise/` | `Lab08_Promise_Race.js` | `Promise.race()` — first to settle wins |
+| `Promise/` | `Lab09_InterviewQuestion.js` | Promise interview questions |
+| `Promise/` | `callback-vs-promise.md` | Callback vs Promise comparison guide |
+| `Promise/` | `Promise-Complete-Guide.md` | Complete Promise guide (`.then`, `.catch`, `.finally`, `Promise.all`, `Promise.race`, `Promise.any`, `Promise.allSettled`) |
+| `Async_Await/` | `Lab_01_Async_await.js` | Basic `async`/`await` syntax |
+| `Async_Await/` | `Lab02_ConvertCode_Async_await.js` | Converting Promise chains to `async`/`await` |
+| `Async_Await/` | `Lab03_Basic_Aysnc_await.js` | Basic `async`/`await` examples |
+| `Async_Await/` | `Lab04_Try_Catch.js` | Error handling with `try...catch` |
+| `Async_Await/` | `Lab05_SequenatialExecution.js` | Sequential execution with `await` |
+| `Async_Await/` | `Lab06_Parallel_Exceution.js` | Parallel execution with `Promise.all` + `await` |
+| `Async_Await/` | `Lab_07_InterviewQuestion.js` | Async/await interview questions |
+| `Async_Await/` | `Async-Await-Complete-Guide.md` | Complete async/await guide (`async`, `await`, `try/catch`, sequential vs parallel, array methods, Promise combinators) |
 
 ### VS Code Shortcuts Reference
 | File | Platform |
