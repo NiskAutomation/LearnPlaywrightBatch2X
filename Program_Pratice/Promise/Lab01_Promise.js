@@ -9,3 +9,4 @@ let order = new Promise(function(resolve,reject){
 });
 
 console.log(order);
+//A Promise is an OBJECT. it wraps a value that will be availabe later.

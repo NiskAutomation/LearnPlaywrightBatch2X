@@ -42,7 +42,7 @@ openBrowser().then(function(msg){
 let goToLogin = openBrowser().then(function(msg){
     console.log(msg);
 })
-
+  
 let enterCredentails = goToLogin.then(function(msg){
     console.log(msg);
 })

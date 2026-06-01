@@ -5,5 +5,5 @@ let apiCall = new Promise(function (resolve, reject){
 apiCall.then(function(data){
     console.log("Data is success")
 }).catch(function (error){
-    console.log(error);
+    console.log(error); 
 });

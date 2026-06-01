@@ -15,4 +15,4 @@ Promise.all([
     console.log(r);
    }).catch(function(err){
     console.log("Failed:", err)
-   })
+   }) 

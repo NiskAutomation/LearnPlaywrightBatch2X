@@ -154,20 +154,37 @@ LearnPlaywrightBatch2X/
 │   ├── 88_Real_Example.js                     → Real-world browser list manipulation
 │   ├── 89_Searching.js                        → indexOf, lastIndexOf, find, findIndex
 │   ├── 90_Iterate.js                          → for, for...of, forEach, for...in, .entries()
-│   └── 91_Iransfer_Array.js                   → map, filter, reduce, flat
+│   ├── 91_Iransfer_Array.js                   → map, filter, reduce, flat
+│   ├── 92_Arrays.js                           → Sorting arrays with sort() and custom comparators
+│   ├── 93_Array_Slicing.js                    → slice() vs splice() methods
+│   ├── 94_Concat_arrays.js                    → concat() and spread operator (…)
+│   └── 95_Array_Chekings.js                   → Array.isArray(), every(), some()
 │
 ├── Chapter_12_Functions/
-│   ├── 96_Functions.js                          → Functions basics and introduction
-│   ├── 97_Type1_Function_Basics.js              → Type 1: Function basics
+│   ├── 96_Functions.js                        → Functions basics and introduction
+│   ├── 97_Type1_Function_Basics.js            → Type 1: Function with no parameters and no return
 │   ├── 98_Type2_Function_With_Parameter_No_Return.js → Type 2: Function with parameter, no return
 │   ├── 99_Type3_Function_Without_Parameter_With_Return.js → Type 3: Function without parameter, with return
 │   ├── 100_Type_Function_With_Parameter_With_Return.js → Type 4: Function with parameter and return
-│   ├── 101_Template_Literals.js               → Template literals in functions
-│   ├── 102_Function_Expression.js             → Function expressions
-│   ├── 103_Arrow_Function.js                  → Arrow functions basics
-│   ├── 104_Arrow_Real_Example.js              → Real-world arrow function example (status code validation)
-│   ├── 105_Function_Types_Comparison.js         → Comparison table: Normal vs Expression vs Arrow function
-│   └── Function_Types_Comparison.md             → Detailed markdown guide with emoji comparison table
+│   ├── 101_Template_Literals.js             → Template literals and string interpolation
+│   ├── 102_Function_Expression.js             → Function expressions (named and anonymous)
+│   ├── 103_Arrow_Function.js                → Arrow functions syntax variations
+│   ├── 104_Arrow_Real_Example.js            → Real-world arrow function example (status code validation)
+│   ├── 105_Function_Types_Comparison.js       → Comparison table: Normal vs Expression vs Arrow function
+│   ├── 105_IIFE.js                            → Immediately Invoked Function Expressions (IIFE)
+│   ├── 106_Default_Param_function.js          → Default function parameters
+│   ├── 107_Interview_Question.js              → Multi-parameter function interview questions
+│   ├── 108_Rest_Param_function.js             → Rest parameters (…args)
+│   ├── 109_Interview_Question.js              → Function hoisting interview questions
+│   ├── 110_Spread_Interview_Question.js       → Spread operator with functions
+│   ├── 111_Scope_Function.js                  → Global vs local scope
+│   ├── 112_Interview_Question.js              → Nested functions and block scope
+│   ├── 113_Clouser.js                         → Closure basics
+│   ├── 114_Clouser.js                         → Closure for state encapsulation (counter example)
+│   ├── 115_API_Real_Example_Clouser.js        → Real-world closure example (API retry tracker)
+│   ├── 116_Higher_Order_Function.js           → Higher-order functions
+│   ├── 117_Pure_Function.js                   → Pure vs impure functions
+│   └── Function_Types_Comparison.md           → Detailed markdown guide with emoji comparison table
 │
 ├── Program_Pratice/
 │   ├── Opps_Concepts/
@@ -183,6 +200,13 @@ LearnPlaywrightBatch2X/
 │   │   ├── testUtils.js                       → Test utility functions
 │   │   ├── utils.js                           → Utility functions
 │   │   └── OOP_Concepts_Guide.md              → Complete OOP guide (import/export, class, object, constructor, inheritance)
+│   ├── Class_Object/
+│   │   ├── Lab01_Private_Public.js            → Private and public class members
+│   │   ├── Lab02_Static.js                    → Static methods and properties
+│   │   ├── Lab03_static.js                    → Static member examples
+│   │   ├── Lab04_Encapuslation.js             → Encapsulation concept
+│   │   ├── Lab05_Car.js                       → Car class example
+│   │   └── OOP_Concepts.md                    → OOP concepts guide
 │   ├── Promise/
 │   │   ├── Lab01_Promise.js              → Basic Promise creation (resolve/reject)
 │   │   ├── Lab02_Promise_API.js          → Promise with API status example
@@ -392,6 +416,38 @@ LearnPlaywrightBatch2X/
 | `89_Searching.js` | Searching methods: `indexOf`, `lastIndexOf`, `find`, `findIndex` |
 | `90_Iterate.js` | Iteration techniques: `for`, `for...of`, `forEach`, `for...in`, `.entries()` |
 | `91_Iransfer_Array.js` | Transform methods: `map`, `filter`, `reduce`, `flat` |
+| `92_Arrays.js` | Sorting arrays: `sort()`, custom comparators |
+| `93_Array_Slicing.js` | `slice()` vs `splice()` methods |
+| `94_Concat_arrays.js` | Array concatenation with `concat()` and spread operator (`...`) |
+| `95_Array_Chekings.js` | Array validation: `Array.isArray()`, `every()`, `some()` |
+
+### Chapter 12 — Functions
+| File | Topic Covered |
+|------|--------------|
+| `96_Functions.js` | Functions basics and introduction |
+| `97_Type1_Function_Basics.js` | Type 1: Function with no parameters and no return |
+| `98_Type2_Function_With_Parameter_No_Return.js` | Type 2: Function with parameter, no return |
+| `99_Type3_Function_Without_Parameter_With_Return.js` | Type 3: Function without parameter, with return |
+| `100_Type_Function_With_Parameter_With_Return.js` | Type 4: Function with parameter and return |
+| `101_Template_Literals.js` | Template literals and string interpolation in functions |
+| `102_Function_Expression.js` | Function expressions (named and anonymous) |
+| `103_Arrow_Function.js` | Arrow functions syntax variations |
+| `104_Arrow_Real_Example.js` | Real-world arrow function example (status code validation) |
+| `105_Function_Types_Comparison.js` | 📊 Comparison table: Normal vs Expression vs Arrow function |
+| `105_IIFE.js` | Immediately Invoked Function Expressions (IIFE) |
+| `106_Default_Param_function.js` | Default function parameters |
+| `107_Interview_Question.js` | Multi-parameter function interview questions |
+| `108_Rest_Param_function.js` | Rest parameters (`...args`) |
+| `109_Interview_Question.js` | Function hoisting interview questions |
+| `110_Spread_Interview_Question.js` | Spread operator with functions |
+| `111_Scope_Function.js` | Global vs local scope |
+| `112_Interview_Question.js` | Nested functions and block scope |
+| `113_Clouser.js` | Closure basics |
+| `114_Clouser.js` | Closure for state encapsulation (counter example) |
+| `115_API_Real_Example_Clouser.js` | Real-world closure example (API retry tracker) |
+| `116_Higher_Order_Function.js` | Higher-order functions |
+| `117_Pure_Function.js` | Pure vs impure functions |
+| `Function_Types_Comparison.md` | 📚 Detailed markdown guide with emoji comparison table |
 
 ### Program Practice — OOP Concepts
 | File | Topic Covered |
@@ -408,6 +464,16 @@ LearnPlaywrightBatch2X/
 | `testUtils.js` | Test utility functions |
 | `utils.js` | Utility functions |
 | `OOP_Concepts_Guide.md` | Complete OOP guide (import/export, class, object, constructor, inheritance, `extends`, `super()`, static methods) |
+
+### Program Practice — Class & Object (OOP Advanced)
+| File | Topic Covered |
+|------|--------------|
+| `Class_Object/Lab01_Private_Public.js` | Private and public class members |
+| `Class_Object/Lab02_Static.js` | Static methods and properties |
+| `Class_Object/Lab03_static.js` | Static member examples |
+| `Class_Object/Lab04_Encapuslation.js` | Encapsulation concept |
+| `Class_Object/Lab05_Car.js` | Car class example |
+| `Class_Object/OOP_Concepts.md` | OOP concepts guide |
 
 ### Program Practice — String Manipulation & Algorithms
 | File | Topic Covered |
