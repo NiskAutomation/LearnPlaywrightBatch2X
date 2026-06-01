@@ -156,6 +156,19 @@ LearnPlaywrightBatch2X/
 │   ├── 90_Iterate.js                          → for, for...of, forEach, for...in, .entries()
 │   └── 91_Iransfer_Array.js                   → map, filter, reduce, flat
 │
+├── Chapter_12_Functions/
+│   ├── 96_Functions.js                          → Functions basics and introduction
+│   ├── 97_Type1_Function_Basics.js              → Type 1: Function basics
+│   ├── 98_Type2_Function_With_Parameter_No_Return.js → Type 2: Function with parameter, no return
+│   ├── 99_Type3_Function_Without_Parameter_With_Return.js → Type 3: Function without parameter, with return
+│   ├── 100_Type_Function_With_Parameter_With_Return.js → Type 4: Function with parameter and return
+│   ├── 101_Template_Literals.js               → Template literals in functions
+│   ├── 102_Function_Expression.js             → Function expressions
+│   ├── 103_Arrow_Function.js                  → Arrow functions basics
+│   ├── 104_Arrow_Real_Example.js              → Real-world arrow function example (status code validation)
+│   ├── 105_Function_Types_Comparison.js         → Comparison table: Normal vs Expression vs Arrow function
+│   └── Function_Types_Comparison.md             → Detailed markdown guide with emoji comparison table
+│
 ├── Program_Pratice/
 │   ├── Opps_Concepts/
 │   │   ├── Lab01_Export_Import.js             → Basic export/import examples
@@ -202,6 +215,21 @@ LearnPlaywrightBatch2X/
 │
 └── README.md                                 → This file
 ```
+
+### Chapter 12 — Functions
+| File | Topic Covered |
+|------|--------------|
+| `96_Functions.js` | Functions basics and introduction |
+| `97_Type1_Function_Basics.js` | Type 1: Function basics |
+| `98_Type2_Function_With_Parameter_No_Return.js` | Type 2: Function with parameter, no return |
+| `99_Type3_Function_Without_Parameter_With_Return.js` | Type 3: Function without parameter, with return |
+| `100_Type_Function_With_Parameter_With_Return.js` | Type 4: Function with parameter and return |
+| `101_Template_Literals.js` | Template literals in functions |
+| `102_Function_Expression.js` | Function expressions |
+| `103_Arrow_Function.js` | Arrow functions basics |
+| `104_Arrow_Real_Example.js` | Real-world arrow function example (status code validation) |
+| `105_Function_Types_Comparison.js` | Comparison table: Normal vs Expression vs Arrow function |
+| `Function_Types_Comparison.md` | 📊 Detailed markdown guide with emoji comparison table |
 
 ---
 
