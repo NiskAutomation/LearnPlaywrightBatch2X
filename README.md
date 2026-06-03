@@ -186,6 +186,15 @@ LearnPlaywrightBatch2X/
 │   ├── 117_Pure_Function.js                   → Pure vs impure functions
 │   └── Function_Types_Comparison.md           → Detailed markdown guide with emoji comparison table
 │
+├── Chapter_13_Strings/
+│   ├── 118_Strings.js                         → String basics and introduction
+│   ├── 119_String_Properties.js               → String properties: length, charAt, charCodeAt, at
+│   ├── 120_Search_Check.js                    → Searching & checking: indexOf, lastIndexOf, includes, startsWith, endsWith, search, match
+│   ├── 121_Substring.js                       → Extracting substrings: slice, substring, substr
+│   ├── 122_Transform_String.js                → Transforming strings: toUpperCase, toLowerCase, trim, trimStart, trimEnd, padStart, padEnd, replace, replaceAll, repeat
+│   ├── 123_String_Conversion.js               → Converting & joining: split, concat, toString, valueOf
+│   └── String_Methods_CheatSheet.md           → Complete cheat sheet of all string methods with examples
+│
 ├── Program_Pratice/
 │   ├── Opps_Concepts/
 │   │   ├── Lab01_Export_Import.js             → Basic export/import examples
@@ -448,6 +457,17 @@ LearnPlaywrightBatch2X/
 | `116_Higher_Order_Function.js` | Higher-order functions |
 | `117_Pure_Function.js` | Pure vs impure functions |
 | `Function_Types_Comparison.md` | 📚 Detailed markdown guide with emoji comparison table |
+
+### Chapter 13 — Strings
+| File | Topic Covered |
+|------|--------------|
+| `118_Strings.js` | String basics and introduction |
+| `119_String_Properties.js` | String properties: `length`, `charAt()`, `charCodeAt()`, `at()` |
+| `120_Search_Check.js` | Searching & checking: `indexOf()`, `lastIndexOf()`, `includes()`, `startsWith()`, `endsWith()`, `search()`, `match()` |
+| `121_Substring.js` | Extracting substrings: `slice()`, `substring()`, `substr()` |
+| `122_Transform_String.js` | Transforming strings: `toUpperCase()`, `toLowerCase()`, `trim()`, `trimStart()`, `trimEnd()`, `padStart()`, `padEnd()`, `replace()`, `replaceAll()`, `repeat()` |
+| `123_String_Conversion.js` | Converting & joining: `split()`, `concat()`, `toString()`, `valueOf()` |
+| `String_Methods_CheatSheet.md` | 📋 Complete cheat sheet of all string methods with one-liner examples |
 
 ### Program Practice — OOP Concepts
 | File | Topic Covered |
