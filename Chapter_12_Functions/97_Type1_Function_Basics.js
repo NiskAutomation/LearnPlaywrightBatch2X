@@ -7,5 +7,5 @@ function greet(){
 greet();
 
 let a = greet();
-// console.log(a);
+console.log(a);
 

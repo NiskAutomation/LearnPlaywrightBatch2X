@@ -12,3 +12,7 @@ function LoginTest(){
 function LoginTestFailed(){
     return "fail"
 }
+
+
+runWithLoggin(LoginTest, "Login Test")
+runWithLoggin(LoginTestFailed, "Dashboard Failed Test")

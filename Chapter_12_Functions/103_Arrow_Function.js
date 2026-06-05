@@ -16,3 +16,9 @@ console.log(doubleIt(4));
 
 const printIt = name => console.log(name);
 printIt("Nishikant")
+
+function add(a , b){
+    return a + b;
+}
+
+const add2 = (a, b) => a + b;

@@ -195,6 +195,22 @@ LearnPlaywrightBatch2X/
 │   ├── 123_String_Conversion.js               → Converting & joining: split, concat, toString, valueOf
 │   └── String_Methods_CheatSheet.md           → Complete cheat sheet of all string methods with examples
 │
+├── Chapter_14_Objects/
+│   ├── 124_Object.js                          → Object basics and introduction
+│   ├── 125_Object.js                          → Object properties and methods basics
+│   ├── 126_Objects_Creations.js               → Object creation and reference equality
+│   ├── 127_Real_Example.js                    → Real-world object example
+│   ├── 128_Primitive_Ref_Object.js            → Primitive vs Reference types
+│   ├── 129_Object_Examples.js                 → Object examples and patterns
+│   ├── 130_Interview_Question.js              → Object interview questions
+│   ├── 131_Object_Functions.js                → Object methods (functions inside objects)
+│   ├── 132_Object_Deconstruct.js              → Object destructuring
+│   ├── 133_Spead.js                           → Spread operator with objects
+│   ├── 134_Object_Get_Set_Method.js           → Getter and setter methods
+│   ├── 135_Interview_Question.js              → More object interview questions
+│   ├── 136_Object_Real.js                     → Real-world object example
+│   └── 137_Let_Const_Object.js                → let/const with objects (mutability)
+│
 ├── Program_Pratice/
 │   ├── Opps_Concepts/
 │   │   ├── Lab01_Export_Import.js             → Basic export/import examples
@@ -468,6 +484,24 @@ LearnPlaywrightBatch2X/
 | `122_Transform_String.js` | Transforming strings: `toUpperCase()`, `toLowerCase()`, `trim()`, `trimStart()`, `trimEnd()`, `padStart()`, `padEnd()`, `replace()`, `replaceAll()`, `repeat()` |
 | `123_String_Conversion.js` | Converting & joining: `split()`, `concat()`, `toString()`, `valueOf()` |
 | `String_Methods_CheatSheet.md` | 📋 Complete cheat sheet of all string methods with one-liner examples |
+
+### Chapter 14 — Objects
+| File | Topic Covered |
+|------|--------------|
+| `124_Object.js` | Object basics and introduction |
+| `125_Object.js` | Object properties and methods basics |
+| `126_Objects_Creations.js` | Object creation and reference equality |
+| `127_Real_Example.js` | Real-world object example |
+| `128_Primitive_Ref_Object.js` | Primitive vs Reference types |
+| `129_Object_Examples.js` | Object examples and patterns |
+| `130_Interview_Question.js` | Object interview questions |
+| `131_Object_Functions.js` | Object methods (functions inside objects) |
+| `132_Object_Deconstruct.js` | Object destructuring |
+| `133_Spead.js` | Spread operator with objects |
+| `134_Object_Get_Set_Method.js` | Getter and setter methods |
+| `135_Interview_Question.js` | More object interview questions |
+| `136_Object_Real.js` | Real-world object example |
+| `137_Let_Const_Object.js` | `let`/`const` with objects (mutability) |
 
 ### Program Practice — OOP Concepts
 | File | Topic Covered |

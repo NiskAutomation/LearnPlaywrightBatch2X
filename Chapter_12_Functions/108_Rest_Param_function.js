@@ -1,5 +1,5 @@
 // Rest of the paramter 
-function logResult(suiteName, ...results){
+function logResult(suiteName, ...results ){ //array of object
     console.log(suiteName);
     console.log(results);
 }

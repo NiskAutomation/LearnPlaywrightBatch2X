@@ -2,12 +2,12 @@
 function apiCall(name){
     return new Promise(function(resolve){
         setTimeout(function(){
-            resolve(name, "200 OK!")  
+            resolve({ service: name, status: "200 OK!" })  
         }, 1000)
     })
 }
 
-async function sequential() {
+async function parallel() {
     console.log("starting of the test")
     let start = Date.now();
     let[r1, r2, r3] = await Promise.all([
@@ -21,4 +21,4 @@ async function sequential() {
     console.log("Time:~" + (Date.now() -start) + "ms")
 }
 
-sequential();
+parallel();

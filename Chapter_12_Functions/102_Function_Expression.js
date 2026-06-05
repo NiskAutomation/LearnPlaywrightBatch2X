@@ -5,3 +5,6 @@ const greet = function sayName(name){
 let r = greet("Nisk");
 console.log(r)
 
+function greet1(name){
+    return `Hello, ${name}`;
+}
