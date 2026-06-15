@@ -260,7 +260,10 @@ LearnPlaywrightBatch2X/
 │   ├── 03_RemoveDuplicate.js       → Remove duplicate characters from string
 │   ├── 04_FindDuplicate.js         → Find duplicate characters in string
 │   ├── 05_OccurancyString.js       → Count character occurrences in string
-│   └── 06_NonRepeated.js           → Find non-repeated characters in string
+│   ├── 06_NonRepeated.js           → Find non-repeated characters in string
+│   ├── 06_StarPattern.js           → Star pattern programs (right angle, left angle, pyramid)
+│   ├── 07_Array_Program_number.js  → Array programs with numbers (remove duplicates, find duplicates, non-repeated)
+│   └── 08_Array_Program_String.js  → Array programs with strings (remove duplicates, find duplicates, non-repeated)
 │
 └── README.md                                 → This file
 ```
@@ -538,6 +541,13 @@ LearnPlaywrightBatch2X/
 | `04_FindDuplicate.js` | Find duplicate characters in a string |
 | `05_OccurancyString.js` | Count character occurrences in a string (object + console output) |
 | `06_NonRepeated.js` | Find non-repeated characters in a string |
+
+### Program Practice — Star Patterns & Array Programs
+| File | Topic Covered |
+|------|--------------|
+| `06_StarPattern.js` | Star pattern programs (right angle, left angle, pyramid) |
+| `07_Array_Program_number.js` | Array programs with numbers: remove duplicates, find duplicates, find non-repeated |
+| `08_Array_Program_String.js` | Array programs with strings: remove duplicates, find duplicates, find non-repeated |
 
 ### Program Practice — Promise & Async/Await
 | Folder | File | Topic Covered |
