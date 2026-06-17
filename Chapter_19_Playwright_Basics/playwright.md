@@ -7,76 +7,81 @@ Below are the terminal commands used to set up and work with this Playwright pro
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
-## 2. Initialize Node.js Project
+## 2. Initialize Playwright Project (Recommended)
+```bash
+npm init playwright@latest
+```
+
+## 3. Initialize Node.js Project (Manual)
 ```bash
 npm init -y
 ```
 
-## 3. Install Playwright Library
+## 4. Install Playwright Library
 ```bash
 npm install playwright
 ```
 
-## 4. Install Playwright Test Runner (Fixes `import { test, expect } from '@playwright/test'` error)
+## 5. Install Playwright Test Runner (Fixes `import { test, expect } from '@playwright/test'` error)
 ```bash
 npm install -D @playwright/test
 ```
 
-## 5. Install Playwright Browsers
+## 6. Install Playwright Browsers
 ```bash
 npx playwright install
 ```
 
-## 6. Check Playwright Version
+## 7. Check Playwright Version
 ```bash
 npx playwright --version
 ```
 
-## 7. Run All Tests
+## 8. Run All Tests
 ```bash
 npx playwright test
 ```
 
-## 8. Run Tests in Headed Mode
+## 9. Run Tests in Headed Mode
 ```bash
 npx playwright test --headed
 ```
 
-## 9. Run Tests in Specific Browser
+## 10. Run Tests in Specific Browser
 ```bash
 npx playwright test --project=chromium
 npx playwright test --project=firefox
 npx playwright test --project=webkit
 ```
 
-## 10. Run Specific Test File
+## 11. Run Specific Test File
 ```bash
 npx playwright test example.spec.js
 ```
 
-## 11. Run Tests with UI Mode
+## 12. Run Tests with UI Mode
 ```bash
 npx playwright test --ui
 ```
 
-## 12. Generate Test Code (Codegen)
+## 13. Generate Test Code (Codegen)
 ```bash
 npx playwright codegen https://example.com
 ```
 
-## 13. Show Test Report
+## 14. Show Test Report
 ```bash
 npx playwright show-report
 ```
 
-## 14. Install Specific Browser Only
+## 15. Install Specific Browser Only
 ```bash
 npx playwright install chromium
 npx playwright install firefox
 npx playwright install webkit
 ```
 
-## 15. Update Playwright
+## 16. Update Playwright
 ```bash
 npm update playwright
 npm update -D @playwright/test
