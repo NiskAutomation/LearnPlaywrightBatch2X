@@ -265,6 +265,15 @@ LearnPlaywrightBatch2X/
 │   ├── 07_Array_Program_number.js  → Array programs with numbers (remove duplicates, find duplicates, non-repeated)
 │   └── 08_Array_Program_String.js  → Array programs with strings (remove duplicates, find duplicates, non-repeated)
 │
+├── Chapter_19_Playwright_Basics/
+│   ├── playwright.md              → Playwright setup commands & test runner guide
+│   ├── playwright.config.ts       → Playwright configuration file
+│   ├── tests/
+│   │   ├── example.spec.ts        → Basic Playwright test example
+│   │   └── tta-cart-spec.ts       → E-commerce cart test automation
+│   └── .github/workflows/
+│       └── playwright.yml         → CI/CD pipeline for Playwright tests
+│
 └── README.md                                 → This file
 ```
 
@@ -571,6 +580,15 @@ LearnPlaywrightBatch2X/
 | `Async_Await/` | `Lab06_Parallel_Exceution.js` | Parallel execution with `Promise.all` + `await` |
 | `Async_Await/` | `Lab_07_InterviewQuestion.js` | Async/await interview questions |
 | `Async_Await/` | `Async-Await-Complete-Guide.md` | Complete async/await guide (`async`, `await`, `try/catch`, sequential vs parallel, array methods, Promise combinators) |
+
+### Chapter 19 — Playwright Basics
+| File | Topic Covered |
+|------|--------------|
+| `playwright.md` | Playwright setup commands, test runner commands, and troubleshooting guide |
+| `playwright.config.ts` | Playwright configuration file with project settings |
+| `tests/example.spec.ts` | Basic Playwright test example |
+| `tests/tta-cart-spec.ts` | E-commerce cart automation test |
+| `.github/workflows/playwright.yml` | CI/CD pipeline for running Playwright tests |
 
 ### VS Code Shortcuts Reference
 | File | Platform |
